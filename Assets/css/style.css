@@ -1,67 +1,81 @@
 
 
 main{
-   max-width: 960px;
-   margin: auto;
-   background-color: pink;
-}
-body{
+    max-width: 960px;
+    margin: auto;
     background-color: pink;
-}
+ } 
+ header{
 
-header{
-    border: 1px solid #dddddd;
-    list-style-type: none;
-    width: 100%;
-    margin: 0 auto; width: 960px;
-    padding-right: 100%;
-
-    overflow: hidden;
-    background-color: #ffffff;
-    font-family:'Georgia', Times, Times New Roman, serif;
-   
-
-}
-
-div a{
-    display: inline-block;
-    color:#777777;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-
-}
-
-div a:hover{
-    background-color: #4aaaa5;
-}
-
-div{
-    float: right;
+     border: 1px solid #dddddd;
+     list-style-type: none;
+     /* margin: 0 auto; width: 960px; */
+     overflow: hidden;
+     background-color: #ffffff;
+     font-family:'Georgia', Times, Times New Roman, serif;
     
+ }
+ .header{
+     position: relative;
+     background-color: #ffffff;
 
-}
+ }
+ .box{
+     position: relative;
+ }
 
-h1{
+ .name{
+     left: 15%;
+ }
 
-   color: white;
-    float: left;
-    background-color: #4aaaa5;
-    margin: 0;
-    padding: 14px 16px;
+ body{
+     background-color: pink;
+     background-size: 100%;
+     
+ }
+ 
+
+ 
+ div a{
+     display: inline-block;
+     color:#777777;
+     text-align: center;
+     padding: 14px 14px;
+     text-decoration: none;
+     
   
-}
-.me{
-    clear: both;
-    float: left;
-    width: 150px;
-    overflow: auto;
-}
-
-footer{
-    background-color: #777777;
-    text-align: center;
-    margin-bottom: 20px;
-    height: 20px;
-
-}
+     
+ 
+ }
+ 
+ div a:hover{
+     background-color: #4aaaa5;
+ }
+ 
+ div{
+     float: right;
+ }
+ 
+ h1{
+ 
+    color: white;
+     float: left;
+     background-color: #4aaaa5;
+    margin: 0;
+     padding: 14px 16px;
+   
+ }
+ .me{
+     clear: both;
+     float: left;
+     width: 150px;
+     overflow: auto;
+ }
+ 
+ footer{
+     background-color: #777777;
+     text-align: center;
+     margin-bottom: 20px;
+     height: 40px;
+ 
+ }
