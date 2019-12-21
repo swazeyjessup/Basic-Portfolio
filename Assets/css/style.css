@@ -63,6 +63,7 @@ main{
      margin-left: 5x;
  }
  
+ 
 
  
  div a{
@@ -235,6 +236,7 @@ main{
      width: 50%;
      top: 370px;
      padding: 5px 0;
+     
 
  }
 
@@ -243,7 +245,7 @@ main{
     float: left;
     width: 50%;
     top: 370px;
-    left: 496px;
+    left: 553px;
     padding: 5px 0;
  
  }
@@ -266,7 +268,7 @@ main{
     float: left;
     width: 50%;
     top: 612px;
-    left: 496px;
+    left: 553px;
     padding: 5px 0;
  
   }
