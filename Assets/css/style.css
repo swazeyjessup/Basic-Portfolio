@@ -29,23 +29,28 @@ main{
  .box{
     
      position: relative;
+     
 
     
  }
 
  .name{
-    left:10%
+    left:10%;
  }
 
 .index{
     right: 10%;
- 
+   
 }
 .portfolio{
    right: 10%;
+   border-right: 1px solid #dddddd;
+
 }
 .contact{
-  right: 10%
+  right: 10%;
+  border-right: 1px solid #dddddd;
+
 }
 
  body{
@@ -62,7 +67,7 @@ main{
  
  div a{
      /* display: inline-block; */
-     color:#777777;
+     color: #dddddd;
      text-align: center;
      padding: 14px 14px;
      text-decoration: none;
